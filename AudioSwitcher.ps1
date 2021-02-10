@@ -1,4 +1,4 @@
-﻿  ##This requires the cmdlet from https://github.com/frgnca/AudioDeviceCmdlets
+﻿ ##This requires the cmdlet from https://github.com/frgnca/AudioDeviceCmdlets
   ##Start by running "get-audiodevice -list" and indentifying the 2 audio sources you want
   ##Write down their Index Numbers. 
   $V = Get-audiodevice -playback
